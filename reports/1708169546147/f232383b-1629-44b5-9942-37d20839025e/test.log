@@ -1,0 +1,9 @@
+[2024-02-17 11:32:34] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-17 11:32:34] [1] [INFO] TEST [ToDoListAndroidTest - verifyAddNewCategoryTest] STARTED at [13:32:34 2024-02-17]
+[2024-02-17 11:32:41] [1] [INFO] Element 'openMenuButton' is clicked.
+[2024-02-17 11:32:43] [1] [INFO] Element 'menuOptions0' is clicked.
+[2024-02-17 11:32:54] [1] [INFO] Element 'createNewButton' is clicked.
+[2024-02-17 11:33:00] [1] [INFO] Keys 'Test Category' are sent to element 'newCategoryNameInput'.
+[2024-02-17 11:33:04] [1] [INFO] Element 'acceptNewCategoryButton' is clicked.
+[2024-02-17 11:33:10] [1] [INFO] Element 'beckToHomePageButton' is clicked.
+[2024-02-17 11:33:17] [1] [INFO] TEST [ToDoListAndroidTest - verifyAddNewCategoryTest] PASSED at [13:33:17 2024-02-17]

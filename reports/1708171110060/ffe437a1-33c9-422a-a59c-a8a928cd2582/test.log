@@ -1,0 +1,45 @@
+[2024-02-17 11:58:40] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-17 11:58:40] [1] [INFO] TEST [ToDoListAndroidTest - verifyAddNewCategoryTest] STARTED at [13:58:40 2024-02-17]
+[2024-02-17 11:58:42] [1] [INFO] Element 'openMenuButton' is clicked.
+[2024-02-17 11:59:06] [1] [ERROR] FAIL: click - waitCondition for element 'createNewButton (By.xpath: //android.widget.TextView[@text="Create New"])' not satisfied!
+[2024-02-17 11:59:08] [1] [ERROR] TEST [ToDoListAndroidTest - verifyAddNewCategoryTest] FAILED at [13:59:08 2024-02-17] - no such element By.xpath: //android.widget.TextView[@text="Create New"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.findElement(ExtendedWebElement.java:1790)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1463)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1441)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:743)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:723)
+com.zebrunner.carina.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:705)
+com.slovd.mobile.android.page.ManageCategoriesPage.createNewCategory(ManageCategoriesPage.java:38)
+com.slovd.mobile.MobileTesting.verifyAddNewCategoryTest(MobileTesting.java:59)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:848)
+org.testng.TestRunner.run(TestRunner.java:621)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+org.testng.SuiteRunner.run(SuiteRunner.java:336)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+org.testng.TestNG.runSuites(TestNG.java:1114)
+org.testng.TestNG.run(TestNG.java:1082)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

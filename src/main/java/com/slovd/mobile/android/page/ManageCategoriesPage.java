@@ -20,7 +20,7 @@ public class ManageCategoriesPage extends AbstractPage {
   @FindBy(id = "todolist.scheduleplanner.dailyplanner.todo.reminders:id/toolbar_back")
   private ExtendedWebElement beckToHomePageButton;
 
-  @FindBy(xpath = "//*[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/categorymag_layout\"]/android.view.ViewGroup")
+  @FindBy(xpath = "//android.view.ViewGroup[contains(@resource-id, 'categorymag_layout')]")
   private List<ExtendedWebElement> categories;
 
 

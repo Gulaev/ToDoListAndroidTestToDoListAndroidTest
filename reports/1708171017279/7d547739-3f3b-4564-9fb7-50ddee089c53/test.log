@@ -1,0 +1,4 @@
+[2024-02-17 11:57:07] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-17 11:57:07] [1] [INFO] TEST [ToDoListAndroidTest - verifyAddNewCategoryTest] STARTED at [13:57:07 2024-02-17]
+[2024-02-17 11:57:24] [1] [INFO] Element 'openMenuButton' is clicked.
+[2024-02-17 11:57:49] [1] [ERROR] FAIL: click - waitCondition for element 'createNewButton (By.xpath: //android.widget.TextView[@text="Create New"])' not satisfied!
