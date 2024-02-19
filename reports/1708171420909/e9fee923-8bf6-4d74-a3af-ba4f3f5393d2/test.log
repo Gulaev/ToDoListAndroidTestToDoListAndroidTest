@@ -1,5 +1,0 @@
-[2024-02-17 12:03:53] [1] [WARN] Reporting disabled: using no op test run registrar
-[2024-02-17 12:03:53] [1] [INFO] TEST [ToDoListAndroidTest - verifyAddNewCategoryTest] STARTED at [14:03:53 2024-02-17]
-[2024-02-17 12:04:18] [1] [INFO] Element 'openMenuButton' is clicked.
-[2024-02-17 12:06:40] [1] [WARN] Unable to capture screenshot due to session does not exist.
-[2024-02-17 12:06:41] [1] [ERROR] Failure detected on screenshot generation after failure: 

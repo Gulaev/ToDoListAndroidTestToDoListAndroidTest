@@ -1,7 +1,0 @@
-[2024-02-17 11:31:29] [1] [WARN] Reporting disabled: using no op test run registrar
-[2024-02-17 11:31:29] [1] [INFO] TEST [ToDoListAndroidTest - verifyAddNewTaskToDifferentCategoryTest] STARTED at [13:31:29 2024-02-17]
-[2024-02-17 11:31:31] [1] [INFO] Element 'categoriesChoiceButtons1' is clicked.
-[2024-02-17 11:31:40] [1] [INFO] Element 'addNewTaskButton' is clicked.
-[2024-02-17 11:31:44] [1] [INFO] Keys 'New task' are sent to element 'inputNewTaskName'.
-[2024-02-17 11:31:45] [1] [INFO] Element 'applyNewTaskButton' is clicked.
-[2024-02-17 11:32:10] [1] [INFO] TEST [ToDoListAndroidTest - verifyAddNewTaskToDifferentCategoryTest] PASSED at [13:32:10 2024-02-17]
